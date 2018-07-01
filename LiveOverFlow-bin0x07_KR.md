@@ -24,7 +24,7 @@ git clone https://github.com/LiveOverflow/liveoverflow_youtube.git
 
 
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 2.png" style="zoom:0%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133823-0ce62c5e-7d6b-11e8-8b0b-a570dc96bfe6.png" style="zoom:0%" />
 
 > 일단 정말 간단하게 시리얼 넘버가 하드코딩 되어있는 예제였다.
 
@@ -34,7 +34,7 @@ git clone https://github.com/LiveOverflow/liveoverflow_youtube.git
 
 흔한 방법으로는 키의 ASCII 값을 비교하고 이를 숨겨진 의미의 값과 비교를 하는 방법이 있다. 
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 3.png" style="zoom:50%"/>
+<img src="https://user-images.githubusercontent.com/24206298/42133825-1a9c3122-7d6b-11e8-872e-3a4f000f6b98.png" style="zoom:50%"/>
 
 
 
@@ -97,7 +97,7 @@ int main(int argc, char *argv[]) {
 
 올바른 키값과 옳지 않은 키값을 집어넣어보자
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 5.png" style="zoom:0%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133829-30d9e4ac-7d6b-11e8-9929-592bfa5f2461.png" style="zoom:0%" />
 
 > 잘 작동한다
 
@@ -105,13 +105,13 @@ int main(int argc, char *argv[]) {
 
 자 그럼 이걸 어떻게 Crack 할 수 있을까? radare2 를 이용해 분석해보자
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 6.png" style="zoom:0%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133837-49a4b264-7d6b-11e8-8565-1441afa9a335.png" style="zoom:0%" />
 
 > 바이너리를 올리고 분석 후 메인 함수 표시
 
 
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 7.png" style="zoom:00%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133838-49ce57a4-7d6b-11e8-910d-2b954b3ec2bb.png" style="zoom:00%" />
 
 > 비교 구문을 하는 곳이 저 파트인 것 같으니 저 부분을 우회해주면 될 것 같다.
 
@@ -149,7 +149,7 @@ Access Granted!
 
 하지만 이런 점프문 패치는 지루하고 별로 의미가 없다. 그렇다면 keygen을 만들어보는건 어떨까? 한번 해보자.
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 9.png" style="zoom:100%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133833-48fb3400-7d6b-11e8-912d-a4da19fbcea1.png" style="zoom:100%" />
 
 > **1:**
 >
@@ -161,7 +161,7 @@ Access Granted!
 
 
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 14.png" style="zoom:0%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133835-4950a034-7d6b-11e8-87e2-a59ea335e756.png" style="zoom:0%" />
 
 > **MOVZX**
 >
@@ -205,7 +205,7 @@ Access Granted!
 
 보기 쉽게 예를 들어 파라미터를 ABCD 로 주고 rax 에 어떤식으로 저장되는지 보면,
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 15.png" style="zoom:00%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133836-497ae8e4-7d6b-11e8-922d-0b3bb698b165.png" style="zoom:00%" />
 
 > 이렇게 레지스터에 저장되는것을 볼 수 있다.
 
@@ -243,7 +243,7 @@ while True:
 
 
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 11.png" style="zoom:0%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133834-49272100-7d6b-11e8-969f-6c5d657c04b6.png" style="zoom:0%" />
 
 > 완★성
 
