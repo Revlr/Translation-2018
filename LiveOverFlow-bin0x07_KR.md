@@ -1,6 +1,6 @@
 # LiveOverFlow - Episode 0x7
 
-#### Uncrackable License check? 	Part 1/2
+#### Uncrackable Programs? Key validation with Algorithm and creating a Keygen - Part 1/2 - bin 0x07
 
 7월 1, 2018 willwayy 이정모
 
