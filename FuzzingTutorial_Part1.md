@@ -175,7 +175,7 @@ CFLAGS="-ggdb" CXXFLAGS="-ggdb" ./configure --disable-shared
 
 
 
-**이것은 Fuzzing Tutorial Part 1 이다. 또한 여기서 나온 ** [zzuf](http://caca.zoy.org/wiki/zzuf/) [official zzuf Tutorial](http://caca.zoy.org/wiki/zzuf/tutorial1) **도 참고해보면 좋을 것 같다.**
+**이것은 Fuzzing Tutorial Part 1 이다. 또한 여기서 나온**  [zzuf](http://caca.zoy.org/wiki/zzuf/) [official zzuf Tutorial](http://caca.zoy.org/wiki/zzuf/tutorial1) **도 참고해보면 좋을 것 같다.**
 
 **Part 2 에서는 Address Sanitizer 를 이용해 버그를 찾아볼것이며**
 
