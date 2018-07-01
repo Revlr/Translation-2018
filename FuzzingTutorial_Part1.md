@@ -10,7 +10,7 @@
 
 
 
-좋은 fuzzing 툴은 다양한 포맷의 파일 형식에 대한 퍼서를 제공한다. `ImageMagick` 을 예로 들어 보자. 이것은 수많은 파일 형식으로 이미지를 처리하는 명령어 기반 도구다.
+좋은 fuzzing 툴은 다양한 포맷의 파일 형식에 대한 파서를 제공한다. `ImageMagick` 을 예로 들어 보자. 이것은 수많은 파일 형식으로 이미지를 처리하는 명령어 기반 도구다.
 
 
 
@@ -175,7 +175,7 @@ CFLAGS="-ggdb" CXXFLAGS="-ggdb" ./configure --disable-shared
 
 
 
-**이것은 Fuzzing Tutorial Part 1 이다. 또한 여기서 나온 **[zzuf](http://caca.zoy.org/wiki/zzuf/) [official zzuf Tutorial](http://caca.zoy.org/wiki/zzuf/tutorial1) **도 참고해보면 좋을 것 같다.**
+**이것은 Fuzzing Tutorial Part 1 이다. 또한 여기서 나온 ** [zzuf](http://caca.zoy.org/wiki/zzuf/) [official zzuf Tutorial](http://caca.zoy.org/wiki/zzuf/tutorial1) **도 참고해보면 좋을 것 같다.**
 
 **Part 2 에서는 Address Sanitizer 를 이용해 버그를 찾아볼것이며**
 
