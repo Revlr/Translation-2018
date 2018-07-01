@@ -47,11 +47,11 @@ git clone https://github.com/LiveOverflow/liveoverflow_youtube.git
 int main(int argc, char *argv[]) {
         if(argc==2) {
 		printf("Checking License: %s\n", argv[1]);
-		int sum = 0;										; 추가한 부분
+		int sum = 0;							; 추가한 부분
 		for(int i = 0; i < strlen(argv[1]); i++) {			; 추가한 부분
-			sum += (int)argv[1][i];							; 추가한 부분
-		}													; 추가한 부분
-		printf("Value: %d\n", sum);							; 추가한 부분
+			sum += (int)argv[1][i];					; 추가한 부분
+		}								; 추가한 부분
+		printf("Value: %d\n", sum);					; 추가한 부분
 		if(strcmp(argv[1], "AAAA-Z10N-42-OK")==0) {
 			printf("Access Granted!\n");
 		} else {
@@ -81,7 +81,7 @@ int main(int argc, char *argv[]) {
         for(int i = 0; i < strlen(argv[1]); i++){
             sum += (int)argv[1][i];
         }
-        if(sum == 916) {									; 이전에는 키값이 하드코딩되어 있었다.
+        if(sum == 916) {						; 이전에는 키값이 하드코딩되어 있었다.
             printf("Access Granted!\n");
         } else {
             printf("WRONG!\n");
@@ -126,10 +126,10 @@ radare2 를 통해 rip를 바꿔주는 것은 상당히 쉽다.
 ```tex
 [0x7fb9fb44ec30]> db 0x00400642							; db: 브레이크 포인트
 [0x7f9714e4f748]> ood AAA-WRONG-KEY						; ood: 디버깅 모드 
-[0x7f78fde4ac30]> dc									; 실행
+[0x7f78fde4ac30]> dc								; 실행
 Checking License: AAA-WRONG-KEY
 hit breakpoint at: 400642
-[0x00400642]> dr										; 현재 레지스터 상태보기
+[0x00400642]> dr								; 현재 레지스터 상태보기
 rsp = 0x7ffd1eb54210
 rbp = 0x7ffd1eb54240
 rip = 0x00400642
