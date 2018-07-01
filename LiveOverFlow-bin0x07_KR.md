@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ../../test
----
-
 # LiveOverFlow - Episode 0x7
 
 #### Uncrackable License check? 	Part 1/2
