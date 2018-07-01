@@ -16,7 +16,7 @@ git clone https://github.com/LiveOverflow/liveoverflow_youtube.git
 
 
 
-<img src="/Users/willwayy/Desktop/File/스크린샷/sc 1.png" style="zoom:100%" />
+<img src="https://user-images.githubusercontent.com/24206298/42133816-eab1fd16-7d6a-11e8-8c01-3f6f72bb8743.png" style="zoom:100%" />
 
 > 64bit 바이너리이고 ELF 파일이다. 
 >
