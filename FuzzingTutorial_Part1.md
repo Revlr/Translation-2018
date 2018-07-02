@@ -16,7 +16,7 @@
 
 일단 우리는 어떻게 이걸 퍼징할건가?? 우리는 일단 먼저 입력 샘플을 생성해야한다. 일반적으로 작은 파일을 사용하는 것이 좋다. 먼저 크기가 작은 여러 형식의 간단한 이미지를 만들자 (e.g. 3x3 pixel PNG). 우리는 이 파일들을 example.png 라고 할 것이다. 자 이제 우리는 이 PNG 파일을 다양한 포맷의 파일로 변환하는 작업을 할 것이다. 이 경우 `ImageMagick` 를 사용하거나 더 정확한 `ImageMagick` 의 일부인 변환도구를 사용하여 예제 파일을 만들 수 있다. 
 
-
+.zzzzzzzzzzzzzzzz
 
 ```
 convert example.png example.gif
